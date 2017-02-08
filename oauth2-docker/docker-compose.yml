@@ -1,0 +1,29 @@
+version: '2'
+services:
+   authen:
+      build: ./authen/.
+      command: "bash run.sh"
+      ports: 
+         - 9858:9858
+   author:
+      build: ./author/.
+      command: "bash run.sh"
+      ports: 
+         - 8523:8523
+   mysql:
+      build: ./mysql/.
+      environment:
+         - MYSQL_ROOT_PASSWORD=docker
+         - MYSQL_DATABASE=userdb
+         - MYSQL_USER=user
+         - MYSQL_PASSWORD=admin
+      ports: 
+         - 3306:3306
+      volumes:
+         - ./mysql/data:/var/lib/mysql
+   mongodb:
+      build: ./mongodb/.
+      ports: 
+         - 27017:27017
+      volumes:
+         - ./mongodb/data:/data/db
