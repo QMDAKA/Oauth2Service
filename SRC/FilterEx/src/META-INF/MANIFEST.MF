@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: gson-2.2.2.jar httpcore-4.2.4.jar httpclient-4.5.jar json-
+ simple-1.1.1.jar junit-4.10.jar hamcrest-core-1.1.jar javax.servlet-a
+ pi-3.0.1.jar httpclient-4.2.3.jar httpcore-4.2.2.jar commons-logging-
+ 1.1.1.jar commons-codec-1.6.jar org.json-2.0.jar
+

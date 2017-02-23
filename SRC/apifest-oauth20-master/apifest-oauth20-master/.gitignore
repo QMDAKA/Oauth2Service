@@ -1,0 +1,12 @@
+/.project
+*/.project
+.classpath
+*/.classpath
+.settings/*
+*/.settings/*
+target/*
+*/target/*
+*/test-output/*
+*.log
+
+/target

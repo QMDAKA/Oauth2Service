@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="FilterEx:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/FilterEx_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="FilterEx.jar">
+        <element id="module-output" name="FilterEx" />
+      </element>
+      <element id="library" level="application" name="gson-2.2.2" />
+      <element id="library" level="application" name="org.apache.httpcomponents:httpcore:4.2.4" />
+      <element id="library" level="application" name="httpclient-4.5" />
+      <element id="library" level="application" name="com.googlecode.json-simple:json-simple:1.1.12" />
+      <element id="library" level="application" name="javax.servlet-api-3.0.1" />
+      <element id="library" level="application" name="org.apache.httpcomponents:httpclient:4.2.3" />
+      <element id="library" level="application" name="org.json:org.json:2.0" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+{
+  "url_server":"http://192.168.15.250:8523",
+  "api":[
+    {"url":"/tokens/testapi1","scopes":["read_profile"],"method":"GET"},
+    {"url":"/tokens/testapi2","scopes":["read_profile","read_list_friend"],"method":"GET"},
+    {"url":"/account/{accountId}/friend/{friendId}","scopes":["read_profile"],"method":"GET"},
+    {"url":"/tokens","scopes":[],"method":"GET"}
+
+  ]
+
+
+}
